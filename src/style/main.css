@@ -1,0 +1,21 @@
+.img-width {
+    width: 20%;
+}
+
+@media (max-width: 768px) {
+    .img-width {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .centered {
+        display: flex;
+        justify-content: center;
+        width: 35%;
+    }
+
+    .form-centered {
+        width: 75%;
+    }
+}
