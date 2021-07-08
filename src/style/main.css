@@ -2,6 +2,11 @@
     width: 20%;
 }
 
+.spinner-center {
+    position: relative;
+    top: 40%
+}
+
 @media (max-width: 768px) {
     .img-width {
         width: 50%;
